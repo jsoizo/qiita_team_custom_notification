@@ -1,5 +1,5 @@
 {
-  "name": "qiita_team_notification",
+  "name": "qiita_team_custom_notification",
   "version": "0.0.1",
   "engines": {
     "node": "6.x"
