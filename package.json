@@ -1,0 +1,21 @@
+{
+  "name": "qiita_team_notification",
+  "version": "0.0.1",
+  "engines": {
+    "node": "6.x"
+  },
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jun Sakamoto",
+  "license": "MIT",
+  "dependencies": {
+    "ifx": "^1.0.4",
+    "request": "^2.72.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
