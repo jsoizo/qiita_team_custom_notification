@@ -1,0 +1,22 @@
+{
+  "name": "Qiita Team Custom Notification",
+  "description": "This is web application that filters Qiita:Team webhook by tag and notify to any slack channel.",
+  "repository": "https://github.com/jsoizo/qiita_team_custom_notification",
+  "env": {
+    "SLACK_WEBHOOK_URL": {
+      "description": "Incoming Webhook URL on your slack team"
+    },
+    "SLACK_CHANNEL": {
+      "description": "slack channel name that is recipient of this custom notification"
+    },
+    "QIITA_TEAM_TAGS": {
+      "description": "filtering conditions(OR). This must be comma seperated values"
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}

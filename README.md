@@ -4,6 +4,8 @@
 
 This is web application that filters [Qiita:Team](https://teams.qiita.com/) webhook by tag and notify to any slack channel.
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 ## description
 
 ### Supported webhook events & model
